@@ -1,0 +1,488 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section.welcom-section {
+    padding: 40px 0;
+    background-color: #f2f4f8d9;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.navbar.bg-light {
+    background-color: #ffff !important;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+}
+
+.left-section {
+    text-align: center;
+}
+
+.left-section h1 {
+    text-transform: capitalize;
+    font-family: 'Oleo Script', sans-serif;
+    font-size: xxx-large;
+}
+
+.left-section p {
+
+    width: 466px;
+    margin: 0 auto;
+    font-size: larger;
+}
+
+.left-section button {
+    margin-top: 3rem;
+    padding: 10px 36px;
+    border-radius: 28px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.left-section button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* practice-section */
+.practice-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 13px;
+    padding-bottom: 6rem;
+gap: 15px;
+}
+
+.card-body p {
+    font-style: italic;
+}
+
+.practice-cards .card-img-top {
+    /* height: 208px; 
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 247px;*/
+    padding: 20px;
+}
+.card-title {
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.practice-cards .card {
+    text-align: center;
+    border-radius: 0;
+    margin-top: 1rem;
+    /* width: 18rem; */
+
+}
+
+.practice-cards .card-title {
+    padding-top: 20px;
+}
+
+.practice-cards .card-link {
+    color: black;
+    text-decoration: underline;
+}
+
+.practice-heading {
+    text-align: center;
+    padding: 20px;
+}
+
+.practice {
+    background-image: url(./img/practice\ background\ img.jpg);
+    background-position: 50% 50%;
+}
+
+/* best teacher section */
+
+.best-teachers {
+    width: 100%;
+    height: 600px;
+    background-image: url(img/yoga.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.best-teachers-content h4 {
+    font-size: 48px;
+    line-height: 1.2;
+    max-width: 857px;
+    margin: 0 auto 20px;
+    margin-top: 4rem;
+}
+
+.best-teachers-content p {
+
+    line-height: 1.8;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    width: 50%;
+    font-size: large;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+
+.best-teachers-content {
+    text-align: center;
+    padding-top: 5rem;
+    position: relative;
+    z-index: 22;
+    color: white;
+}
+
+.best-teachers-content button {
+    font-size: 0.875rem;
+    background-color: #DFC327;
+    border: none;
+    border-radius: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 39px auto 60px;
+    padding: 14px 54px 15px;
+
+}
+
+
+.best-teachers-content button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+section.best-teachers::after {
+    content: '';
+    background: #00000073;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-us {
+    display: flex;
+    gap: 20px;
+    background-color: #DFC327;
+    padding: 5rem 0;
+}
+
+.contact {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+.get-in-touch {
+    width: 50%;
+    background-color: white;
+    margin: 20px;
+    border-radius: 27px;
+    padding: 20px;
+}
+
+.get-in-touch input,
+optgroup,
+select,
+textarea {
+    width: 100%;
+    border: navajowhite;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    border-bottom: 1px solid black;
+    margin-bottom: 3rem;
+}
+
+.contact h2 {
+    font-size: xxx-large;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.get-in-touch h3 {
+    font-size: 45px;
+    margin-bottom: 2rem;
+}
+
+.contact-us p {
+    font-size: x-large;
+    padding: 20px 0;
+}
+
+.location h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.get-in-touch button {
+    width: 64%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.get-in-touch button:hover {
+    background-color: gray;
+}
+
+.footer-wrap {
+    min-height: 117px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.logo-wrap {
+    padding: 15px;
+}
+
+/* Side menu container */
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    background: #212529;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
+    z-index: 1050;
+    /* keep visible for animation */
+    display: block !important;
+    visibility: hidden;
+
+
+}
+
+/* when opening */
+.side-menu.collapsing,
+.side-menu.show {
+    visibility: visible;
+}
+
+/* when menu is open */
+.side-menu.show {
+    transform: translateX(0);
+}
+
+.side-menu.collapsing {
+    transform: translateX(-100%);
+}
+
+/* optional */
+.main-menu {
+    height: 100%;
+    position: relative;
+}
+
+.cross-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+/* OVERLAY */
+.menu-overlay {
+    position: fixed;
+    inset: 0;
+    /* top:0; right:0; bottom:0; left:0 */
+    background: rgba(0, 0, 0, 0.5);
+    /* dark transparent overlay */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease;
+    z-index: 1040;
+}
+
+/* show overlay */
+.menu-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+@media (max-width:1200px) {
+    p.aos-init.aos-animate {
+        width: 100%;
+    }
+
+
+    .practice-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 25px;
+    }
+
+    .main-section {
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .practice-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+    .left-section button {
+        margin: 10px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-section {
+        display: block;
+    }
+
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
+
+    .practice-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+.contact-us p {font-size: larger;}
+    .contact-us {
+        display: block;
+    }
+
+    .get-in-touch {
+        width: 90%;
+        margin: 00 auto;
+    }
+
+    .best-teachers-content p {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .best-teachers-content button {
+        margin: 0;
+    }
+
+    /* .contact { 
+        margin: 0;
+    }
+*/
+    .practice-cards {
+        margin: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .practice-cards {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .best-teachers-content p {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .best-teachers-content button {
+        margin: 0;
+    }
+
+    .contact {
+        margin: 0;
+    }
+
+    .left-section p {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* .practice-cards .card { 
+        margin-left: 3rem;
+    }
+*/
+    .best-teachers-content h4 {
+        margin: 0;
+    }
+
+
+}
+
+@media (max-width:480px) {
+
+
+
+    .best-teachers-content {
+        padding: 0;
+    }
+
+    .best-teachers-content h4 {
+        font-size: xx-large;
+        padding: 20px;
+    }
+
+
+    .contact-us p {
+        padding: 0;
+    }
+
+    .contact {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width:375px) {
+    .practice-cards .card {
+        margin-left: 23px;
+    }
+}
